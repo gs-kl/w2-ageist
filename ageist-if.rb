@@ -1,7 +1,10 @@
-age = (0..110).to_a.sample
+age = (0..110).to_a.sample # haven't seen this used yet, interesting
+# rand might be easier to understand and read, except for that edge case in the number
+
 print "Age is #{age}. Age range: "
 case age
 when 0, 1
+# indentation
 	print "baby"
 when 2..10
 	print "child"
