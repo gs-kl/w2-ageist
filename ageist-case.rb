@@ -1,19 +1,19 @@
 age = (0..110).to_a.sample
 print "Age is #{age}. Age range: "
 if age < 1
-	print "baby"
+  print "baby"
 elsif age < 10
-	print "child"
+  print "child"
 elsif age < 12
-	print "tween"
+  print "tween"
 elsif age < 19
-	print "teenager"
+  print "teenager"
 elsif age < 39
-	print "adult"
+  print "adult"
 elsif age < 65
-	print "middle-aged"
+  print "middle-aged"
 elsif age < 100
-	print "senior"
+  print "senior"
 elsif age < 110
-	print "record-breaking"
+  print "record-breaking"
 end

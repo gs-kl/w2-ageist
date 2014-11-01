@@ -2,19 +2,19 @@ age = (0..110).to_a.sample
 print "Age is #{age}. Age range: "
 case age
 when 0, 1
-	print "baby"
+  print "baby"
 when 2..10
-	print "child"
+  print "child"
 when 10..12
-	print "tween"
+  print "tween"
 when 13..19
-	print "teenager"
+  print "teenager"
 when 20..39
-	print "adult"
+  print "adult"
 when 40..65
-	print "middle-aged"
+  print "middle-aged"
 when 66..100
-	print "senior"
+  print "senior"
 when 101..110
-	print "record-breaking"
+  print "record-breaking"
 end
